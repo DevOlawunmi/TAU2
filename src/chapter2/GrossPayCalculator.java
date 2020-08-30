@@ -7,18 +7,18 @@ public class GrossPayCalculator {
     public static void main(String[] args) {
 
 //get the number of hours worked.
-        System.out.println("How many hours did you work?");
+        System.out.println("Please enter number of hours worked");
         Scanner scanner = new Scanner(System.in);
         int hoursWorked = scanner.nextInt();
 
 //Then, we get the hourly pay rate.
-        System.out.println("How much do you earn per hour?");
+        System.out.println("Please enter hourly rate");
       int hourlyPay =  scanner.nextInt();
       scanner.close();
 
 //Next, we multiply the hours and the pay rate.
         int grossPay = hourlyPay * hoursWorked;
 //Finally, we would display the result.
-        System.out.println("Your gross pay is £ " + grossPay);
+        System.out.println("Your gross pay is £" + grossPay);
     }
 }
