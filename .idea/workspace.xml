@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbcabb8-e5b7-40c9-8647-358e77571e1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter4/AddNumbersDoWhileLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter4/GrossPayValidationWhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter4/GrossPayValidationWhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/AddNumbersDoWhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter4/AddNumbersDoWhileLoop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.GrossPayValidationWhileLoop">
+  <component name="RunManager" selected="Application.AddNumbersDoWhileLoop">
+    <configuration name="AddNumbersDoWhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.AddNumbersDoWhileLoop" />
+      <module name="TAUJavaAttempt2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GradeMessagesSwitchStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter3.GradeMessagesSwitchStatement" />
       <module name="TAUJavaAttempt2" />
@@ -74,19 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuotaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.QuotaCalculator" />
-      <module name="TAUJavaAttempt2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestResultsIfElseIf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter3.TestResultsIfElseIf" />
       <module name="TAUJavaAttempt2" />
@@ -102,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddNumbersDoWhileLoop" />
         <item itemvalue="Application.GrossPayValidationWhileLoop" />
         <item itemvalue="Application.GradeMessagesSwitchStatement" />
         <item itemvalue="Application.TestResultsIfElseIf" />
         <item itemvalue="Application.LoanQualifier" />
-        <item itemvalue="Application.QuotaCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599191565020</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="While Statement Practise">
+      <created>1599191829690</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599191829690</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -224,26 +230,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="While Statement Practise" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1599191564485">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1599191829057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599191564485" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1599191484963">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599191829057" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1599192350651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599191484963" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1599191484962">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599192350651" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1599192350651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599191484962" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1599191484962">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599192350651" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1599192350650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599191484962" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1599191484962">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599192350650" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1599192350651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599191484962" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599192350651" />
     <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1599191116958">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
