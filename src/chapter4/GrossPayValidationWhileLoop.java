@@ -22,10 +22,11 @@ public class GrossPayValidationWhileLoop {
         System.out.println("Enter how many hours worked");
         Scanner scanner = new Scanner(System.in);
         int hoursWorked = scanner.nextInt();
-        while (hoursWorked > maxHours) {
+        while (hoursWorked > maxHours||hoursWorked<1) {
             System.out.println("Maximum hours allowed is " + maxHours+ ". Please try again");
             hoursWorked = scanner.nextInt();
         }
+        scanner.close();
 int totalPay = rate *hoursWorked;
         System.out.println("Your total pay is "+ totalPay);
     }
