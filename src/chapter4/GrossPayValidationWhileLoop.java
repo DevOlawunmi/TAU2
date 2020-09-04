@@ -4,9 +4,12 @@ so we know that the rate is $15 an hour
 and we'll go ahead and say that the max hours they can work is 40
 Next, I went ahead and got the unknown variables:
 
-I asked them how many hours they worked that week
-and scanned it in
-Now, since we are not to allow overtime, we have to verify that what they've entered is valid input
+*****Important things to know about a while loop
+It’s controlled by a condition and will continue to run while that condition remains true.
+The condition is tested before the loop is entered, so there's a chance that this loop will never execute.
+It's good to use the While loop when you may or may not need to run the loop, based on the state of the condition.
+That's why it's very important to make sure you use your sentinel.
+So whatever variable you're using within your condition that controls this loop, make sure that it's getting updated inside of the loop.
  */
 
 import java.util.Scanner;
