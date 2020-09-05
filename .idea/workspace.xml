@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbcabb8-e5b7-40c9-8647-358e77571e1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter4/LetterSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter4/AverageTestScoreForLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -237,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599281050914</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Letter Search For Loop">
+      <created>1599285981905</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1599285981905</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -251,13 +258,14 @@
     <MESSAGE value="Do While Statement Practise" />
     <MESSAGE value="Do While Statement Practise Update" />
     <MESSAGE value="For Loop practise" />
-    <option name="LAST_COMMIT_MESSAGE" value="For Loop practise" />
+    <MESSAGE value="Letter Search For Loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Letter Search For Loop" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1599281050348">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1599286011885">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599281050348" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599286011885" />
     <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1599284433966">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -290,10 +298,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599284433966" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1599281053285">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1599286044586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599281053285" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599286044586" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1599279517349">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
