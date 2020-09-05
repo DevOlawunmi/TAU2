@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbcabb8-e5b7-40c9-8647-358e77571e1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chapter4/LetterSearch2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter4/AverageTestScoreForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter4/AverageTestScoreForLoop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.AverageTestScoreForLoop">
+  <component name="RunManager" selected="Application.LetterSearch2">
     <configuration name="AddNumbersDoWhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter4.AddNumbersDoWhileLoop" />
       <module name="TAUJavaAttempt2" />
@@ -73,19 +73,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GrossPayValidationWhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter4.GrossPayValidationWhileLoop" />
-      <module name="TAUJavaAttempt2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LetterSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter4.LetterSearch" />
       <module name="TAUJavaAttempt2" />
@@ -99,13 +86,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LetterSearch2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.LetterSearch2" />
+      <module name="TAUJavaAttempt2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LetterSearch2" />
         <item itemvalue="Application.AverageTestScoreForLoop" />
         <item itemvalue="Application.LetterSearch" />
         <item itemvalue="Application.Cashier" />
         <item itemvalue="Application.AddNumbersDoWhileLoop" />
-        <item itemvalue="Application.GrossPayValidationWhileLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599290408543</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Average Score For Loop">
+      <created>1599307140295</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1599307140295</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -267,29 +274,30 @@
     <MESSAGE value="For Loop practise" />
     <MESSAGE value="Letter Search For Loop" />
     <MESSAGE value="Average Test Score For Loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Average Test Score For Loop" />
+    <MESSAGE value="Average Score For Loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Average Score For Loop" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1599290408011">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1599307139710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599290408011" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1599307047838">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599307139710" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1599310945516">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599307047838" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1599307047838">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599310945516" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1599310945516">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599307047838" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1599307047838">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599310945516" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1599310945516">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599307047838" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1599307047838">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599310945516" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1599310945516">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599307047838" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599310945516" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1599307047838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -306,10 +314,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599307047838" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1599290410367">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1599307143647">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599290410367" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599307143647" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1599302465164">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -318,16 +326,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1598417341182" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/chapter4/AverageTestScoreForLoop.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
