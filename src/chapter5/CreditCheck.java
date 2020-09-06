@@ -19,10 +19,9 @@ public class CreditCheck {
     public static void main(String[] args) {
         int salary = getSalary();
         int creditScore = getCreditScore();
+        scanner.close();
        boolean qualified =  isUserQualified(salary,creditScore);
        notifyUser(qualified);
-
-
 
     }
 
@@ -30,7 +29,6 @@ public class CreditCheck {
         System.out.println("Enter your salary");
         int salary = scanner.nextInt();
         return salary;
-
     }
 
     public static int getCreditScore() {
