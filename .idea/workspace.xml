@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbcabb8-e5b7-40c9-8647-358e77571e1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter4/DieRollSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter5/Greeting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.DieRollSolution">
+  <component name="RunManager" selected="Application.Greeting">
     <configuration name="AverageTestScoreForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter4.AverageTestScoreForLoop" />
       <module name="TAUJavaAttempt2" />
@@ -73,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter4.LetterSearch" />
+    <configuration name="Greeting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter5.Greeting" />
       <module name="TAUJavaAttempt2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter4.*" />
+          <option name="PATTERN" value="chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Greeting" />
         <item itemvalue="Application.DieRollSolution" />
         <item itemvalue="Application.DieRollAssignment" />
         <item itemvalue="Application.LetterSearch2" />
         <item itemvalue="Application.AverageTestScoreForLoop" />
-        <item itemvalue="Application.LetterSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599313329936</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Die Roll Angie's solution">
+      <created>1599359598931</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1599359598931</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -290,29 +297,30 @@
     <MESSAGE value="Average Test Score For Loop" />
     <MESSAGE value="Average Score For Loop" />
     <MESSAGE value="Letter Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Letter Search" />
+    <MESSAGE value="Die Roll Angie's solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Die Roll Angie's solution" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1599313329480">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1599359598367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599313329480" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1599359531318">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599359598367" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1599360573162">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599359531318" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1599359531318">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599360573162" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1599360573162">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599359531318" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1599359531318">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599360573162" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1599360573162">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599359531318" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1599359531318">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599360573162" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1599360573162">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599359531318" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599360573162" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1599313342245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -329,10 +337,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599313342245" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1599313331702">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1599359601315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599313331702" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599359601315" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1599359102008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
