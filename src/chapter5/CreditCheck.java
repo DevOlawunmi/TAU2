@@ -27,14 +27,12 @@ public class CreditCheck {
 
     public static int getSalary() {
         System.out.println("Enter your salary");
-        int salary = scanner.nextInt();
-        return salary;
+        return scanner.nextInt();
     }
 
     public static int getCreditScore() {
         System.out.println("Enter your credit score");
-        int creditScore = scanner.nextInt();
-        return creditScore;
+        return scanner.nextInt();
     }
 
     public static boolean isUserQualified(int salary, int creditScore) {
