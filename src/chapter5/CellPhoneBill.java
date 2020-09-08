@@ -20,7 +20,7 @@ public class CellPhoneBill {
     static Scanner scanner = new Scanner(System.in);
     static int overageMinutes;
     static int tax = 15;
-    static double totalBill = 0;
+    static double subTotal = 0;
     static double totalTax;
     public static void main(String[] args) {
         System.out.println("Enter the cost plan:");
@@ -29,8 +29,8 @@ public class CellPhoneBill {
         overageMinutes = scanner.nextInt();
         scanner.close();
        double overageCharge =  calculateOverages(overageMinutes);
-       double totalTax = calculateTax(tax,totalBill);
-        System.out.println(finalBill(totalBill,totalTax));
+       double totalTax = calculateTax(subTotal);
+        System.out.println(finalBill(subTotal,totalTax));
 
 
     }
@@ -40,13 +40,9 @@ public class CellPhoneBill {
         return overage;
     }
 
-    public static double totalBeforeTax(double overage, double plan){
-       totalBill = overage+plan;
-       return totalBill;
 
-    }
-    public static double calculateTax(int tax, double totalBill){
-        totalTax = tax*totalBill;
+    public static double calculateTax( double subTotal){
+        totalTax = tax*subTotal;
         return totalTax;
 
     }
