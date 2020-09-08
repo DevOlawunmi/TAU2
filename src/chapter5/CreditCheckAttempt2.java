@@ -20,6 +20,7 @@ public class CreditCheckAttempt2 {
     public static void main(String[] args) {
         int creditScore = getCreditScore();// call the getCreditScore method, save the value in the creditScore var
         double salary = getSalary(); // call the getSalary method and save the value it returns in the salary var
+        scanner.close();
         boolean qualified = isUserQualified(creditScore, salary);
         notifyUser(qualified);
         /*
