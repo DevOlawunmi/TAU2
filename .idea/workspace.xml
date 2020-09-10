@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbcabb8-e5b7-40c9-8647-358e77571e1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter6/PhoneBillCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter6/PhoneBillRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,22 +33,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.PhoneBillCalculator">
+  <component name="RunManager" selected="Application.PhoneBillRunner">
     <configuration name="CellPhoneBill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter5.CellPhoneBill" />
-      <module name="TAUJavaAttempt2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreditCheckAttempt2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5.CreditCheckAttempt2" />
       <module name="TAUJavaAttempt2" />
       <extension name="coverage">
         <pattern>
@@ -100,13 +86,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PhoneBillRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6.PhoneBillRunner" />
+      <module name="TAUJavaAttempt2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhoneBillRunner" />
         <item itemvalue="Application.PhoneBillCalculator" />
         <item itemvalue="Application.HomeAreaCalculatorRedo" />
         <item itemvalue="Application.HomeAreaCalculator" />
         <item itemvalue="Application.CellPhoneBill" />
-        <item itemvalue="Application.CreditCheckAttempt2" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599624051750</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Phone bill">
+      <created>1599711156529</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1599711156529</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -371,29 +377,30 @@
     <MESSAGE value="Cell phone bill 2nd attempt" />
     <MESSAGE value="Calculate Area Example" />
     <MESSAGE value="Calculate Area Example 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculate Area Example 2" />
+    <MESSAGE value="Phone bill" />
+    <option name="LAST_COMMIT_MESSAGE" value="Phone bill" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1599624051157">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1599711156014">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599624051157" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1599624067813">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599711156014" />
+    <state width="1493" height="115" key="GridCell.Tab.0.bottom" timestamp="1599712475014">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599624067813" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1599624067812">
+    <state width="1493" height="115" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599712475014" />
+    <state width="1493" height="115" key="GridCell.Tab.0.center" timestamp="1599712475013">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599624067812" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1599624067812">
+    <state width="1493" height="115" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599712475013" />
+    <state width="1493" height="115" key="GridCell.Tab.0.left" timestamp="1599712475013">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599624067812" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1599624067813">
+    <state width="1493" height="115" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599712475013" />
+    <state width="1493" height="115" key="GridCell.Tab.0.right" timestamp="1599712475013">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599624067813" />
+    <state width="1493" height="115" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599712475013" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1599456480314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -410,10 +417,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599456480314" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1599624054647">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1599711162408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599624054647" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599711162408" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1599706111674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
