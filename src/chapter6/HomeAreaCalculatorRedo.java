@@ -9,6 +9,7 @@ public class HomeAreaCalculatorRedo {
         Rectangle kitchen = getRoom();
         Rectangle patio = getRoom();
         double area = calculateTotalArea(kitchen,patio);
+
         System.out.println(area);
     }
 
