@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1bbcabb8-e5b7-40c9-8647-358e77571e1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miniprojects/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniprojects/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miniprojects/BankingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniprojects/BankingApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +34,11 @@
   </component>
   <component name="RunManager" selected="Application.BankingApplication">
     <configuration name="BankingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="miniprojects.BankingApplication" />
+      <option name="MAIN_CLASS_NAME" value="miniprojectbankingapp.BankingApplication" />
       <module name="TAUJava2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="miniprojects.*" />
+          <option name="PATTERN" value="miniprojectbankingapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,11 +369,17 @@
       <option name="project" value="LOCAL" />
       <updated>1600658560740</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Bank Account App  object created and successfully ran">
+      <created>1600744649209</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1600744649209</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Quota Calculator example" />
     <MESSAGE value="Loan Qualifier Example, If else if" />
     <MESSAGE value="Switch Statement practise" />
     <MESSAGE value="While Statement Practise" />
@@ -400,29 +404,30 @@
     <MESSAGE value="Phone bill Runner" />
     <MESSAGE value="Lottery ticket generator" />
     <MESSAGE value="Bank Account App 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bank Account App 1" />
+    <MESSAGE value="Bank Account App  object created and successfully ran" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bank Account App  object created and successfully ran" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1600658560141">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1600744648608">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600658560141" />
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1600744533644">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600744648608" />
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1600752646782">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600744533644" />
-    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1600744533644">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600752646782" />
+    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1600752646782">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600744533644" />
-    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1600744533644">
+    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600752646782" />
+    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1600752646782">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600744533644" />
-    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1600744533644">
+    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600752646782" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1600752646782">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600744533644" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600752646782" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1599883199914">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -439,14 +444,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599883199914" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1600658562753">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1600744653115">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600658562753" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1600742076276">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600744653115" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1600832833736">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1600742076276" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1600832833736" />
     <state x="209" y="34" key="new project wizard" timestamp="1598417341182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

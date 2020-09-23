@@ -1,4 +1,4 @@
-package miniprojects;
+package miniprojectbankingapp;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package miniprojects;
+package miniprojectbankingapp;
 
 public class BankingApplication {
     public static void main(String[] args) {
