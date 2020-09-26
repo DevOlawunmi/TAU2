@@ -19,11 +19,13 @@ public class Email {
     private int defaultPasswordLength = 10;
     private int mailboxCapacity;
     private String alternateEmail;
+    private String email;
+    private String companySuffix = "AdunTech.com";
     // constructor to receive the first name and last name
     public Email(String firstName, String lastName){
         this.firstName = firstName;
         this.lastName = lastName;
-        System.out.println("Email Created: "+ this.firstName+ "."+ this.lastName);
+        System.out.println("Email Created: "+ this.firstName + this.lastName);
 
         // call a method asking for the department - return the department
         this.department= setDepartment();
@@ -32,18 +34,21 @@ public class Email {
         //call a method that returns a random password
         this.password = randomPassword(defaultPasswordLength);
         System.out.println("Your password is :" + this.password);
+
+        // combine elements to generate email
+        email = firstName.toLowerCase()+"."+lastName.toLowerCase()+"@"+department+"."+ companySuffix;
+        System.out.println(email);
+
     }
-
-
 
     //ask for the department
     private String setDepartment(){
-        System.out.print("DEPARTMENT CODES : \n1 for Sales \n2 for Dev \n3 for Accounting \n0 for none \n Enter department code");
+        System.out.print("DEPARTMENT CODES : \n1 for Sales \n2 for Dev \n3 for Accounting \n0 for none \n Enter department code: ");
         Scanner scanner = new Scanner(System.in);
         int departmentChoice = scanner.nextInt();
-        if (departmentChoice == 1){ return "sales";}
-        else if (departmentChoice==2){ return "dev"; }
-        else if (departmentChoice==3){ return "accounting"; }
+        if (departmentChoice == 1){ return "Sales";}
+        else if (departmentChoice==2){ return "Dev"; }
+        else if (departmentChoice==3){ return "Accounting"; }
         else return "";
     }
 
