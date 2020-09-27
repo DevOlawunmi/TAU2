@@ -20,12 +20,11 @@ public class Email {
     private int mailboxCapacity = 500;
     private String alternateEmail;
     private String email;
-    private String companySuffix = "AdunTech.com";
+    private final String companySuffix = "AdunTech.com";
     // constructor to receive the first name and last name
     public Email(String firstName, String lastName){
         this.firstName = firstName;
         this.lastName = lastName;
-        System.out.println("Email Created: "+ this.firstName + " "+ this.lastName);
 
         // call a method asking for the department - return the department
         this.department= setDepartment();
@@ -40,7 +39,7 @@ public class Email {
 
     //ask for the department
     private String setDepartment(){
-        System.out.print("DEPARTMENT CODES : \n1 for Sales \n2 for Dev \n3 for Accounting \n0 for none \n Enter department code: ");
+        System.out.print("New Worker: "+ firstName +". Department Codes: \n1 for Sales \n2 for Dev \n3 for Accounting \n0 for none \n Enter department code: ");
         Scanner scanner = new Scanner(System.in);
         int departmentChoice = scanner.nextInt();
         if (departmentChoice == 1){ return "Sales";}
@@ -61,6 +60,9 @@ public class Email {
     }
 
     //write method to change password
+    public void changePassword(String password){
+        this.password=password;
+    }
 
     //set mailbox capacity
     public void setMailboxCapacity(int capacity){
@@ -69,15 +71,9 @@ public class Email {
 
     //set alternate email
     public void setAlternateEmail (String altEmail){
-        this.alternateEmail = altEmail;
-    }
+        this.alternateEmail = altEmail;    }
 
-    //change password
-    public void changePassword(String password){
-        this.password=password;
-    }
-
-    public String getAlternateEmail (){
+       public String getAlternateEmail (){
         return alternateEmail;
     }
 
