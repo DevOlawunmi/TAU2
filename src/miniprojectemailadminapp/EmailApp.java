@@ -12,6 +12,9 @@ Have get methods to display the name, email and mailbox capacity
 public class EmailApp {
     public static void main(String[] args) {
         Email email1 = new Email("Ola","Ajibola");
+        System.out.println(email1.showInfo());
+
+
 
 
     }

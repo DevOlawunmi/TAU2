@@ -17,7 +17,7 @@ public class Email {
     private String department;
     private String  password;
     private int defaultPasswordLength = 10;
-    private int mailboxCapacity;
+    private int mailboxCapacity = 500;
     private String alternateEmail;
     private String email;
     private String companySuffix = "AdunTech.com";
@@ -25,19 +25,16 @@ public class Email {
     public Email(String firstName, String lastName){
         this.firstName = firstName;
         this.lastName = lastName;
-        System.out.println("Email Created: "+ this.firstName + this.lastName);
+        System.out.println("Email Created: "+ this.firstName + " "+ this.lastName);
 
         // call a method asking for the department - return the department
         this.department= setDepartment();
-        System.out.println("Department: "+ department);
 
         //call a method that returns a random password
         this.password = randomPassword(defaultPasswordLength);
         System.out.println("Your password is :" + this.password);
-
         // combine elements to generate email
         email = firstName.toLowerCase()+"."+lastName.toLowerCase()+"@"+department+"."+ companySuffix;
-        System.out.println(email);
 
     }
 
@@ -66,12 +63,35 @@ public class Email {
     //write method to change password
 
     //set mailbox capacity
+    public void setMailboxCapacity(int capacity){
+        this.mailboxCapacity  = capacity;
+    }
 
     //set alternate email
+    public void setAlternateEmail (String altEmail){
+        this.alternateEmail = altEmail;
+    }
 
-    //display email
+    //change password
+    public void changePassword(String password){
+        this.password=password;
+    }
 
-    //display name
+    public String getAlternateEmail (){
+        return alternateEmail;
+    }
 
-    //display mailbox capacity
+    public String getPassword (){
+        return password;
+    }
+    public int getMailboxCapacity (){
+        return mailboxCapacity;
+    }
+
+    public String showInfo(){
+        return "Name: "+ firstName+" "+ lastName+
+                "\nCompany Email: "+ email+
+                "\nMailbox Capacity: " + mailboxCapacity +"mb";
+
+    }
 }
