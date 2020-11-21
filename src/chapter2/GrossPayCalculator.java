@@ -9,11 +9,11 @@ public class GrossPayCalculator {
 //get the number of hours worked.
         System.out.println("Please enter number of hours worked");
         Scanner scanner = new Scanner(System.in);
-        int hoursWorked = scanner.nextInt();
+        int hoursWorked = scanner.nextInt(); //we saved whatever number inputted into the variable called hoursWorked.
 
 //Then, we get the hourly pay rate.
         System.out.println("Please enter hourly rate");
-      int hourlyPay =  scanner.nextInt();
+      int hourlyPay =  scanner.nextInt();//we saved whatever number inputted into the variable called hourlyPay.
       scanner.close();
 
 //Next, we multiply the hours and the pay rate.

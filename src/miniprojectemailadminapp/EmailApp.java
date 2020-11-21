@@ -13,6 +13,8 @@ public class EmailApp {
     public static void main(String[] args) {
         Email email1 = new Email("Ola","Ajibola");
         System.out.println(email1.showInfo());
+        Email email2 = new Email("Claudia","Awolesi");
+        System.out.println(email2.showInfo());
 
 
 
