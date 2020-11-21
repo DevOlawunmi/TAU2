@@ -8,21 +8,25 @@ import java.util.Scanner;
 
 public class LoanQualifier {
     public static void main(String[] args) {
+        // initialise what we know
         int minSalaryToQualify = 30000;
         int minYearsToQualify = 2;
+
+        // get info we don't know
         System.out.println("How much is your current salary?");
         Scanner scanner = new Scanner(System.in);
-        int currentSalary = scanner.nextInt();
-        System.out.println("How many years have you been on this job?");
-        int noOfYears = scanner.nextInt();
+        double currentSalary = scanner.nextDouble();
+        System.out.println("How many years have you been with your current employer?");
+        double noOfYears = scanner.nextDouble();
         scanner.close();
         if (currentSalary >= minSalaryToQualify) {
             if (noOfYears >= minYearsToQualify) {
                 System.out.println("You qualify for the loan");
-            } else {
+            }
+            else {
                 System.out.println("You do not qualify for the loan due to the number of years");
             }
-        } else {
+       }else {
             System.out.println("You do not qualify due to your salary");
         }
 
