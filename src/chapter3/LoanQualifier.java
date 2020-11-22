@@ -1,5 +1,7 @@
 package chapter3;
 /*
+More than one condition to be met
+
 To qualify for a loan there are two conditions that must be met.
 The person must make at least $30,000 and they must have also been at their job for 2 or more years.
  */
