@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1bbcabb8-e5b7-40c9-8647-358e77571e1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter3/LoanQualifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/LoanQualifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter3/TestResultsIfElseIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/TestResultsIfElseIf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/miniprojectbankingapp/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniprojectbankingapp/BankAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -441,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605935424721</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Chapter 3d comments updated">
+      <created>1606018929710</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1606018929710</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -458,7 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Average Score For Loop" />
     <MESSAGE value="Letter Search" />
     <MESSAGE value="Die Roll Angie's solution" />
     <MESSAGE value="Greeting method" />
@@ -483,29 +488,30 @@
     <MESSAGE value="App build completed and updated" />
     <MESSAGE value="Comments added" />
     <MESSAGE value="Chapter 3 comments updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3 comments updated" />
+    <MESSAGE value="Chapter 3d comments updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3d comments updated" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1605935424186">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1606018929034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1605935424186" />
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1601347511836">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606018929034" />
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1606029542500">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601347511836" />
-    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1601347511836">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606029542500" />
+    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1606029542500">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601347511836" />
-    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1601347511836">
+    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606029542500" />
+    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1606029542500">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601347511836" />
-    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1601347511836">
+    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606029542500" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1606029542500">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601347511836" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606029542500" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1599883199914">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -522,14 +528,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599883199914" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1605935426885">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1606018932378">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605935426885" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1601345855945">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606018932378" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1606460909770">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1601345855945" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1606460909770" />
     <state x="209" y="34" key="new project wizard" timestamp="1598417341182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
